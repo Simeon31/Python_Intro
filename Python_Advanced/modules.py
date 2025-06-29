@@ -1,8 +1,8 @@
-from sales import calc_tax, calc_shipping
+from ecommerce.sales import calc_tax, calc_shipping
 # Another way of importing a module
-import sales
+import ecommerce.sales
 
-sales.calc_tax()
+ecommerce.sales.calc_tax()
 
 calc_tax()
 calc_shipping()
