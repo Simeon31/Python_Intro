@@ -9,3 +9,4 @@ with ZipFile("files.zip", "w") as zipFile:
 # Reading zip files
 with ZipFile("files.zip") as zipFile:
     print(zipFile.namelist())
+    zipFile.extractall("extracted") # zip file extraction
