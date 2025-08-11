@@ -17,3 +17,12 @@ password = browser.find_element(By.ID, "password")
 username.send_keys("MasterCoder14")
 password.send_keys("today_is_almost_over")
 password.submit()
+
+assert "MasterCoder14" in browser.page_source
+
+# More specific assertion
+# profile_link = browser.find_element(By.CLASS_NAME, "p-nickname ")
+# link_label = profile_link.get_attribute("innerHTML")
+# assert "MasterCoder14" in link_label
+
+browser.quit()
