@@ -31,4 +31,4 @@ print("-" * 40)
 
 dimensions_inch = np.array([4, 5, 6])
 dimensions_cm = dimensions_inch * 2.54
-print("Dimensions_cm:", dimensions_cm)
+print("Dimensions_cm:",  dimensions_cm)
