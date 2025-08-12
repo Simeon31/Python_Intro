@@ -8,6 +8,7 @@ requests = "*"
 beautifulsoup4 = "*"
 selenium = "*"
 pypdf2 = "*"
+openpyxl = "*"
 
 [dev-packages]
 
