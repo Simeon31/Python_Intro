@@ -21,6 +21,8 @@ print("Row: ", cell.row)
 print("Coordinate: ", cell.coordinate)
 
 # Iteration
+# Note: The command query separation principle should be taken into account
+
 for row in range(1, sheet.max_row + 1):
     for column in range(1, sheet.max_column + 1):
         cell = sheet.cell(row=row, column=column) # Another way of accessing a cell
