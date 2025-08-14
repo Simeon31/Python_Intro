@@ -5,8 +5,14 @@ from django.utils import timezone
 class Genre(models.Model):
     name = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
 class Movie(models.Model):
     title = models.CharField(max_length=255)
+    def __str__(self):
+        return self.title
+
     release_year = models.IntegerField()
     number_in_stock = models.IntegerField()
     daily_rate = models.FloatField()
