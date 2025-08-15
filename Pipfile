@@ -12,6 +12,7 @@ openpyxl = "*"
 numpy = "*"
 legacy-cgi = "*"
 django = "*"
+django-tastypie = "*"
 
 [dev-packages]
 
