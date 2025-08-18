@@ -13,8 +13,8 @@ numpy = "*"
 legacy-cgi = "*"
 django = "*"
 django-tastypie = "*"
-gunicorn = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
