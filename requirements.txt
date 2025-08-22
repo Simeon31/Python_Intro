@@ -1,0 +1,12 @@
+beautifulsoup4
+Django
+dj-database-url
+gunicorn
+numpy
+openpyxl
+pytz
+requests
+selenium
+six
+whitenoise
+psycopg2-binary

@@ -1,1 +1,1 @@
-web: gunicorn videotech.wsgi
+web: cd Web_Dev && gunicorn videotech.wsgi
