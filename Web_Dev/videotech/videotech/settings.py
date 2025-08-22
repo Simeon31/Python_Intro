@@ -26,8 +26,16 @@ SECRET_KEY = 'znodxf(w*ju0y%ppgf6m891ib!ynvs_gi(y7c21(cs4uc12g-+'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'pure-lake-62012.herokuapp.com',
     'pure-lake-62012-65aeb24b9a6f.herokuapp.com'
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://pure-lake-62012.herokuapp.com',
+    'https://pure-lake-62012-65aeb24b9a6f.herokuapp.com'
+]
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 # Application definition
