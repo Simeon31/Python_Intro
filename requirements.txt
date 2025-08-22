@@ -10,3 +10,4 @@ selenium
 six
 whitenoise
 psycopg2-binary
+django-tastypie
