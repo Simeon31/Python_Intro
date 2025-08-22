@@ -25,7 +25,9 @@ SECRET_KEY = 'znodxf(w*ju0y%ppgf6m891ib!ynvs_gi(y7c21(cs4uc12g-+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'pure-lake-62012-65aeb24b9a6f.herokuapp.com'
+]
 
 
 # Application definition
