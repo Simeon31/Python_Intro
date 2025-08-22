@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "videotech.movies.apps.MoviesConfig",
-    "videotech.api.apps.ApiConfig"
+    "movies.apps.MoviesConfig",
+    "api.apps.ApiConfig"
 ]
 
 MIDDLEWARE = [
