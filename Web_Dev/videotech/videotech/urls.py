@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from api.resources import MovieResource
+from videotech.api.resources import MovieResource
 from tastypie.api import Api
 from . import views
 
@@ -25,6 +25,6 @@ movie_resource.register(MovieResource())
 urlpatterns = [
     path('', views.home),
     path('admin/', admin.site.urls),
-    path('movies/', include('movies.urls')),
+    path('movies/', include('videotech.movies.urls')),
     path('api/', include(movie_resource.urls)),
 ]

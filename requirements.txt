@@ -1,5 +1,5 @@
 beautifulsoup4
-Django
+Django==3.2.*
 dj-database-url
 gunicorn
 numpy
