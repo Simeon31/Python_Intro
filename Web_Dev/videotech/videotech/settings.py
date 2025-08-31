@@ -27,12 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'pure-lake-62012.herokuapp.com',
-    'pure-lake-62012-65aeb24b9a6f.herokuapp.com'
-]
-
-CSRF_TRUSTED_ORIGINS = [
-    'https://pure-lake-62012.herokuapp.com',
-    'https://pure-lake-62012-65aeb24b9a6f.herokuapp.com'
+    'pure-lake-62012-65aeb24b9a6f.herokuapp.com',
+    '127.0.0.1'
 ]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
@@ -47,8 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "videotech.movies.apps.MoviesConfig",
-    "videotech.api.apps.ApiConfig"
+    "movies.apps.MoviesConfig",
+    "api.apps.ApiConfig"
 ]
 
 MIDDLEWARE = [
